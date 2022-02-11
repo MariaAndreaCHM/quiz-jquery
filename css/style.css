@@ -1,0 +1,198 @@
+.principal{
+  
+    flex-direction: column;
+    background-color: #bbb0d8;
+   padding:50px 0px;
+    margin-bottom: 50px;
+    
+    
+}
+
+.butttons{
+    height: 10%;
+    
+
+    margin-left: 50px;
+    
+    
+    
+    
+}
+.options{
+    width: 150px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    background-color: #f3ec8c;
+    border-radius: 5px;
+    border-color: aliceblue;
+    color:rgb(83, 4, 90);
+    font-size: 18px;
+
+    
+}
+.tab{
+    display:flex;
+    justify-content: center;
+}
+#result{
+    background-color: #f3ac14;
+    height:300px;
+    width: 200px;
+}
+.sc{
+    width: 150px;
+    margin-left: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #f38c8c;
+    border-radius: 5px;
+    border-color: aliceblue;
+    color:rgb(83, 4, 90);
+    font-size: 18px; 
+}
+.question{
+    margin-bottom:50px;
+    color: rgb(248, 245, 247);
+    font-weight: bold;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+.encabezado{
+    height:100px;
+    background-color:#fabb9e
+    ;
+    
+    
+    margin-bottom:20px;
+    display:flex;
+    justify-content:center;
+    padding-top:10px;
+
+
+}
+.cont{
+    width: 20%;
+    margin-left: 500px;
+    
+}
+
+  .correct, .incorrect {
+    text-transform: capitalize;
+  }
+h2{
+    color: white;
+    font-weight: bold;
+}
+.pie{
+    height: 100px;
+    background-color:#97dedb;
+    margin-top:20px;
+}
+
+
+*{
+    font-family: 'Slabo', serif;
+}
+#img1{
+    background-image: url("../assets/rugrats.jpg");
+  height: 200px;
+  background-color: #f4de4d;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:contain;
+  margin-left: 50px;
+ margin-bottom: 20px;
+
+}
+#img2{
+    background-image: url("../assets/rocket.jpeg");
+    height: 200px;
+    background-color: #f4de4d;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    margin-left: 50px;
+   margin-bottom: 20px;
+ 
+
+}
+#img3{
+    background-image: url("../assets/courage.jpg");
+    height: 200px;
+    background-color: #f4de4d;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    margin-left: 50px;
+   margin-bottom: 20px;
+ 
+
+}
+#img4{
+    background-image: url("../assets/arnold.jpg");
+    height: 200px;
+    background-color: #f4de4d;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    margin-left: 50px;
+   margin-bottom: 20px;
+ 
+
+}
+#img5{
+    background-image: url("../assets/padrinos.jpg");
+    height: 200px;
+    background-color: #f4de4d;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    margin-left: 50px;
+   margin-bottom: 20px;
+ 
+
+}
+#img6{
+    background-image: url("../assets/score.jpg");
+    height: 300px;
+    background-color: #f4de4d;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    margin-left: 50px;
+   margin-bottom: 20px;
+ 
+
+}
+#cont6{
+    width: 550px;
+    margin-left: 250px;
+}
+#res{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.storage{
+    display: flex;
+    padding-left:100px ;
+}
+.usuarios{
+width:50%;
+background-color: #f4de4d;
+height:300px;
+color: white;
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+}
+.scores{
+    width:50%;
+    background-color: #4ddbf4;
+    height:300px;
+    color: white;
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+}

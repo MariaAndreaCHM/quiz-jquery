@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/icon.png">
+    <script src="js/function.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lobster+Two&family=Slabo+27px&display=swap" rel="stylesheet">
+
+</head>
+<body onload="play();">
+    <header class="encabezado">
+        <img src="assets/titulo.png" alt="titulo"/>
+                    
+            <div style="padding-bottom:20px; border-bottom:1px solid #e7e7e7;">
+                <button type="submit" class="sc" id="scores">Afficher les scores
+                </button>
+            </div>
+    </header>
+
+   <div class="principal">
+    <div class="cont" id="cont1">
+        <div  id="img1"></div>
+        
+
+        
+            <div class="question">
+                <span><p >Comment s'appellent les jumeaux dans les Razmoket?
+                </p>
+                </span>
+            </div>
+        <div class="butttons">
+            <button type="submit" class="options" id="c1">Lil DeVille/ Phillip DeVille
+            </button>
+            <button type="submit" class="options" id="c12">Lola Stuart/John Stuart</button>
+            <button type="submit" class="options"id="c13">Didi Pickles/Stu Pickles
+            </button>
+            <button type="submit" class="options"id="c14">Kimi Finster/Charles Finster</button>
+
+        </div>
+        
+
+    </div>
+
+    <div class="cont" id="cont2">
+        <div  id="img2">
+        
+
+        </div>
+            <div class="question">
+                <span><p>Combien de personnages principaux y a-t-il ?
+                </p>
+                </span>
+            </div>
+        <div class="butttons">
+            <button type="submit" class="options"id="c22">4</button>
+            <button type="submit" class="options"id="c23">2</button>
+            <button type="submit"  class="options" id="c2">5</button>
+            <button type="submit" class="options"id="c24">9</button>
+
+
+        </div>
+       
+
+    </div>
+    <div class="cont" id="cont3">
+        <div  id="img3">
+        
+
+        </div>
+            <div class="question">
+                <span><p>Quel est le nom de la dame ? </p>
+
+               
+                </span>
+            </div>
+        <div class="butttons">
+            <button type="submit"id="c3" class="options">Muriel</button>
+            <button type="submit" class="options"id="c34">Ariel</button>
+            <button type="submit" class="options"id="c33">Maurice</button>
+            <button type="submit" class="options"id="c32">Shirley</button>
+
+
+        </div>
+       
+
+    </div>
+
+    <div class="cont" id="cont4">
+        <div  id="img4">
+        
+
+        </div>
+            <div class="question">
+                <span><p>De qui Helga Pataki était-elle amoureuse ?</p>
+                
+                </span>
+            </div>
+        <div class="butttons">
+            <button type="submit" class="options"id="c42">Harold</button>
+            <button type="submit" class="options"id="c43">Phil</button>
+            <button type="submit" class="options"id="c44">Gerald</button>
+            <button type="submit" class="options" id="c4">Arnold</button>
+
+
+        </div>
+        
+
+    </div>
+
+    <div class="cont" id="cont5">
+        <div  id="img5"></div>
+        
+
+        
+            <div class="question">
+                <span><p>Quel est le nom du fils de Cosmo et Wanda ?</p>
+                
+                </span>
+            </div>
+        <div class="butttons">
+            <button type="submit" class="options"id="c52">Tilin</button>
+            <button type="submit" class="options"id="c53">Foop</button>
+            <button type="submit" class="options" id="c5">Poof</button>
+            <button type="submit" class="options"id="c54">Stu</button>
+
+
+        </div>
+      
+
+    </div>
+    <div class="cont" id="cont6">
+        
+        
+
+        
+            <div class="question">
+                <span><p id="res" >Les resultats:</p>
+                    
+                </span>
+             
+            </div>
+           <div class="storage">
+            <div class="usuarios">
+                USERS
+                
+
+            </div>
+            <div class="scores">
+                SCORES
+
+            </div>
+           </div>
+        
+      
+
+    </div>
+
+    
+
+
+</div>
+
+<!--container Bootstrap-->
+<div class="container" id="conta1">
+    <div class="progress" id="pg1">
+        <div id="pg_barre1" class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" id="pg"
+            aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+        </div>
+    </div>
+</div>
+
+<!--container Bootstrap-->
+<div class="container"  id="conta2">
+    <div class="progress" id="pg2">
+        <div id="pg_barre2" class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" id="pg"
+            aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+        </div>
+    </div>
+</div>
+
+
+</div>
+    <footer class="pie">
+
+    </footer>
+</body>
+</html>
